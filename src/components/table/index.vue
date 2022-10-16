@@ -86,9 +86,13 @@ const sortedItems = computed(() => {
 
 const setSort = key => {
   if (sortBy.value === key) {
-    if (sortDesc.value === true) sortDesc.value = null
-    else if (sortDesc.value === false) sortDesc.value = true
-    else sortDesc.value = false
+    if (sortDesc.value === true) {
+      sortDesc.value = null
+    } else if (sortDesc.value === false) {
+      sortDesc.value = true
+    } else {
+      sortDesc.value = false
+    }
   } else {
     sortBy.value = key
     sortDesc.value = false
@@ -112,7 +116,6 @@ watch(
 <style scoped lang="scss">
 .table {
   margin: 0 auto 20px;
-  word-break: normal;
 
   & tr td,
   & tr th {
