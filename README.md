@@ -1,24 +1,23 @@
-# vue-test
+### To run this project locally you need to clone the repo
 
-## Project setup
+## Clone project
+```
+git clone git@github.com:TangoPJ/vue-table.git
+```
+
+## Go to repo directory
+```
+cd vue-table
+```
+
+## Then install dependencies:
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The link to the task: https://faint-adasaurus-4bc.notion.site/Vue-js-49a30f87e4ef4b4a8b68cdcec9b1574f
